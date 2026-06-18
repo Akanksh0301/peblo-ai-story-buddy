@@ -1,0 +1,49 @@
+name: story_buddy
+description: "AI Story Buddy & Quiz — a playful, child-friendly Flutter feature for the Peblo edutainment platform."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Text-To-Speech narration
+  flutter_tts: ^4.0.2
+
+  # Celebration on correct answer
+  confetti: ^0.8.0
+
+  # Declarative animations (fade, slide, shake)
+  flutter_animate: ^4.5.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/quiz.json
+
+  # NOTE: The buddy and all visuals are drawn with CustomPaint (pure vector),
+  # so the app ships with effectively zero binary image assets. This keeps the
+  # APK small and memory use low on 3GB devices. If you prefer a custom font,
+  # drop it in assets/fonts/ and uncomment below.
+  #
+  # fonts:
+  #   - family: Baloo2
+  #     fonts:
+  #       - asset: assets/fonts/Baloo2-Regular.ttf
+  #       - asset: assets/fonts/Baloo2-Bold.ttf
+  #         weight: 700
