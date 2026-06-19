@@ -9,6 +9,16 @@ fun quiz and celebrates with confetti when the child gets it right.
 
 ---
 
+## Features
+
+- Interactive story experience
+- AI Buddy guidance
+- Text-to-speech narration
+- Quiz-based learning
+- Animated feedback
+- Riverpod state management
+- Responsive Flutter UI
+
 ## 1. Project Overview
 
 The feature is a single, self-contained flow:
