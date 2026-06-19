@@ -1,4 +1,4 @@
-# 🤖 AI Story Buddy & Quiz
+# AI Story Buddy & Quiz
 
 A playful, child-friendly Flutter feature built for the **Peblo** edutainment
 platform. Meet **Pip** — a friendly robot who reads a story aloud, then asks a
